@@ -97,7 +97,8 @@
 
         // 毎フレーム時に実行されるループイベントです
         const tick = () => {
-          earthMesh.rotation.y += 0.01;
+          
+            earthMesh.rotation.y += 0.01;
             // レンダリング
             renderer.render(scene, camera);
 
